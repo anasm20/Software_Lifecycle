@@ -9,7 +9,6 @@ on:
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
-    
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,8 +20,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build and Test with Maven
-        run: mvn -B package --file Backend/rest.demo/pom.xml
-      - run: mkdir download && cp Backend/rest.demo/target/*.jar download
+        run: mvn -B package --file ./Backend/rest.demo/pom.xml
+      - run: mkdir download && cp ./Backend/rest.demo/target/*.jar download
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -36,7 +35,6 @@ jobs:
     permissions:
       contents: read
       packages: write
-      
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 11
@@ -53,13 +51,13 @@ jobs:
       - name: Publish to GitHub Packages Apache Maven
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
   release:
     needs: build_and_test
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest-node12
+
     steps:
       - name: Download Build Artifact
         uses: actions/download-artifact@v2
@@ -67,7 +65,7 @@ jobs:
           name: Build
       - name: Create GitHub Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: gh-actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
@@ -75,7 +73,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Backend/rest.demo/target/meinProjekt.jar

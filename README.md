@@ -1,4 +1,5 @@
-![4_Registeren](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/112882511/41b6d13a-eeb0-4142-bea6-a8b0518b1f26)# 1) dotCoffee Website
+# 1) Das Webshop projekt "dotCoffee"
+
 Hallo zusammen, das Projekt stellt einen Coffee-Webshop von Michael (https://github.com/GitMichaGit) und Anas dar. Es handelt sich um ein Open-Source-Projekt, sodass jeder den Code teilweise oder vollständig verwenden und weiterentwickeln kann.
 
 ### - Um das Projekt nutzen zu können, benötigen Sie eine Datenbank namens 'dotCoffee'

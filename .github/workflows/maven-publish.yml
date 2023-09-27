@@ -56,7 +56,7 @@ jobs:
   release:
     needs: build_and_test
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest-node12
+    runs-on: ubuntu-latest-node16
 
     steps:
       - name: Download Build Artifact

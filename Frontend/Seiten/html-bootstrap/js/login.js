@@ -4,6 +4,7 @@ if(isRegisterSuccessful !== undefined && isRegisterSuccessful === 'true') {
     localStorage.removeItem("register.successful")
 }
 
+
 $('#btn-login').click((e) => {
     e.preventDefault();
     const usernameSelector = $('#username');

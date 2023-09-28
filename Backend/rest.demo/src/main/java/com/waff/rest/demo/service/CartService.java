@@ -17,10 +17,10 @@ import java.util.Optional;
 @Transactional
 public class CartService {
 
-    private final StorageService storageService;
-    private final UserService userService;
     private final CartRepository cartRepository;
+    private final UserService userService;
     private final ProductRepository productRepository;
+    private final StorageService storageService;
 
     public CartService(StorageService storageService, UserService userService, CartRepository cartRepository,
                        ProductRepository productRepository) {

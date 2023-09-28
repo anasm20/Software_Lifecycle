@@ -1,3 +1,5 @@
+## 👍 Test Status:
+
 [![Java CI with Maven for main](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven_main.yml/badge.svg)](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven_main.yml)
 
 [![Java Maven CI/CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven-test-publish.yml/badge.svg)](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven-test-publish.yml)

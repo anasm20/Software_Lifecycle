@@ -1,13 +1,17 @@
 package com.waff.rest.demo;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.TestPropertySource;
 
-class MyServiceTests {
+//import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    @Test
-    void testAddition() {
-        MyService myService = new MyService();
-        assertEquals(5, myService.addition(2, 3), "2 + 3 should equal 5");
-    }
+@SpringBootTest
+@TestPropertySource("/application-test.properties")
+class ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
 }

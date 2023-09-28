@@ -1,4 +1,4 @@
-package com.waff.rest.demo;
+package com.waff.rest.demo.service;
 
 public class MyService {
     

@@ -1,3 +1,8 @@
+[![Java CI with Maven for main](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven_main.yml/badge.svg)](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven_main.yml)
+
+[![Java Maven CI/CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven-test-publish.yml/badge.svg)](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/actions/workflows/maven-test-publish.yml)
+
+
 # 1) Das Webshop projekt "dotCoffee"
 
 Hallo zusammen, das Projekt stellt einen Coffee-Webshop von Michael (https://github.com/GitMichaGit) und Anas dar. Es handelt sich um ein Open-Source-Projekt, sodass jeder den Code teilweise oder vollständig verwenden und weiterentwickeln kann.

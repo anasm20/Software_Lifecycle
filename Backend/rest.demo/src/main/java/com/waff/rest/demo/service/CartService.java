@@ -19,8 +19,8 @@ public class CartService {
 
     private final StorageService storageService;
     private final UserService userService;
-    private final CartRepository cartRepository;
     private final ProductRepository productRepository;
+    private final CartRepository cartRepository;
 
     public CartService(StorageService storageService, UserService userService, CartRepository cartRepository,
                        ProductRepository productRepository) {

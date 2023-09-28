@@ -14,7 +14,9 @@ Es handelt sich um ein Open-Source-Projekt, sodass jeder den Code teilweise oder
 
 
 ### - Danach müssen Sie die "Application.java", welche im Backend Ordner zufinden ist ausführen.
-![2_Run](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/112882511/1c33fd28-51b2-4d36-b632-b5f5d39b6e55)
+![2_Run](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/18b17f73-e759-4425-ac6c-ae4571d5743f)
+
+
 
 ### - Hier sind ein paar Ausschnitte über das Frontend der Website:
 ![3_Shop](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/112882511/f898ddc7-fec0-4886-94ec-c457df900c2b)

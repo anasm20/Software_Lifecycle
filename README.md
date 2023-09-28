@@ -23,13 +23,9 @@ Es handelt sich um ein Open-Source-Projekt, sodass jeder den Code teilweise oder
 
 # 2) Software Lifecycle Semesterprojekt
 Für dieses Projekt haben wir verschiedene Software - Lifecycle Methoden angewendet.
-
-Hier eine kleine Auflistung:
 # Project
 Wir benutzen ein Project Board (Kanban) um die Userstories, Statuse, Progress . . . visuel darzustellen und updaten dieses täglich.
 # Userstories - Feature Branches
 Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen auch mit einen eigenen Branch erstellt. Nach den Tests wird dieses in die richtige Main/Dev Branch gemergerd.
-# Continuous Integration
--
-# Continuous Deployment
--
+# Continuous Integration / Continuous Deployment
+Wir benutzen für die die Actions "Java with Maven"

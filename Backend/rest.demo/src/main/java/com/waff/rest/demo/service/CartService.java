@@ -18,8 +18,8 @@ import java.util.Optional;
 public class CartService {
 
     private final CartRepository cartRepository;
-    private final UserService userService;
     private final ProductRepository productRepository;
+    private final UserService userService;
     private final StorageService storageService;
 
     public CartService(StorageService storageService, UserService userService, CartRepository cartRepository,

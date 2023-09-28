@@ -1,7 +1,8 @@
 package com.waff.rest.demo.service;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
+
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
@@ -24,6 +26,7 @@ import com.waff.rest.demo.repository.UserRepository;
 public class UserServiceTest {
     
     private UserService userService;
+    // private UserRepository userRepository;
     
     @Mock
     private PasswordEncoder passwordEncoder;
@@ -49,7 +52,17 @@ public class UserServiceTest {
     
         assertEquals(userList, newUserList);
     }
-    
+
+    @Test
+    public void shouldReturnUserByType() {
+        User dummyUser = new User();
+        when(userRepository.findByUserType(any())).thenReturn(List.of(dummyUser));
+        
+        List<User> result = userService.getUserByUserType(UserType.user);
+        
+        // assertTrue(result.isPresent());
+        assertEquals(dummyUser, result.get(1));
+    }
 }    
 
 

@@ -31,6 +31,17 @@ Wir benutzen ein Project Board (Kanban) um die Userstories, Statuse, Progress . 
 # Userstories - Feature Branches
 Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen auch mit einen eigenen Branch erstellt. Nach den Tests wird dieses in die richtige Main/Dev Branch gemergerd.
 ![03_New_dev_Branch](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/2fc5d6de-ebd1-473a-b989-7d4b6a43b974)
+# Unit Tests
+Hier sind ein paar Ausschnitte über das Frontnd der Website:
+
+![UnitTest_Users](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/a5925513-c489-45e1-8131-5d39a839056b)
+![UnitTest_Product](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/658b999d-fb75-40a9-b862-2a48920b6837)
+![UnitTest_Register](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/0d99fa4a-9f78-4931-8184-c218e9c3a671)
+![UnitTest_Login](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/d7d10eb1-ac4b-4834-a23e-974e6f67b9fb)
+![UnitTest_Category](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/1689e953-03b9-44d6-8082-5517be435f0e)
+![UnitTest_Cart](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/3e982f2d-e275-4222-9723-a600c999c42a)
+![CI-CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/e385d4a0-bae1-4757-ae36-668f707668e2)
+
 # Continuous Integration / Continuous Deployment
 Wir benutzen für die die Actions "Java with Maven"
 ![CI-CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/112882511/217c24e3-dcb8-4d54-943b-5b359334caea)

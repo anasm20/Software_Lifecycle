@@ -33,6 +33,7 @@ Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen au
 ![03_New_dev_Branch](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/2fc5d6de-ebd1-473a-b989-7d4b6a43b974)
 # Continuous Integration / Continuous Deployment
 Wir benutzen für die die Actions "Java with Maven"
+<img width="680" alt="08_action-workflow" src="https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/aa1ae636-73cc-4774-bdcb-7f958560fc90">
 ![04_CI-Workflow](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/d524a936-b7be-4f94-8618-69f7612bc837)
 ![07_CI-CD_Test_Publish](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/ae527dd7-2449-4f58-8a5a-027a19ddc6f2)
 ![06_CI-Workflow-Test](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/e2b4c13b-b03f-46f4-b085-230efd871f00)

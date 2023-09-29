@@ -6,7 +6,7 @@ name: Test feature branches
 
 on:
   push:
-    branches: [ "feature/*" ]
+    branches: [ "feature/**" ]
     
 jobs:
   build:

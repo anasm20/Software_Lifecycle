@@ -18,7 +18,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - run: pwd & ls -al
     - name: Build with Maven
       run: mvn -B package --file Backend/rest.demo/pom.xml
 

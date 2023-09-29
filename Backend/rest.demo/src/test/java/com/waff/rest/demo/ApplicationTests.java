@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
-@TestPropertySource("/applicationtest.properties")
+//@TestPropertySource("/applicationtest.properties")
 class ApplicationTests {
 
 	@Test

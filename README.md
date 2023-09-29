@@ -34,16 +34,34 @@ Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen au
 # Unit Tests
 Hier sind ein paar Ausschnitte über das Frontnd der Website:
 
+Hier wird ein User-Controller Unit Test gezeigt
 ![UnitTest_Users](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/a5925513-c489-45e1-8131-5d39a839056b)
+
+
+Hier wird ein Product-Controller Unit Test gezeigt
 ![UnitTest_Product](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/658b999d-fb75-40a9-b862-2a48920b6837)
+
+
+Hier wird ein Register-Controller Unit Test gezeigt
 ![UnitTest_Register](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/0d99fa4a-9f78-4931-8184-c218e9c3a671)
+
+
+Hier wird ein Login-Controller Unit Test gezeigt
 ![UnitTest_Login](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/d7d10eb1-ac4b-4834-a23e-974e6f67b9fb)
+
+
+Hier wird ein Category-Controller Unit Test gezeigt
 ![UnitTest_Category](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/1689e953-03b9-44d6-8082-5517be435f0e)
+
+
+Hier wird ein Cart-Controller Unit Test gezeigt
 ![UnitTest_Cart](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/3e982f2d-e275-4222-9723-a600c999c42a)
-![CI-CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/e385d4a0-bae1-4757-ae36-668f707668e2)
+
+
 
 # Continuous Integration / Continuous Deployment
 Wir benutzen für die die Actions "Java with Maven"
+![CI-CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/e385d4a0-bae1-4757-ae36-668f707668e2)
 ![CI-CD](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/112882511/217c24e3-dcb8-4d54-943b-5b359334caea)
 ![04_CI-Workflow](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/d524a936-b7be-4f94-8618-69f7612bc837)
 ![07_CI-CD_Test_Publish](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/ae527dd7-2449-4f58-8a5a-027a19ddc6f2)

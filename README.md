@@ -31,7 +31,8 @@ Wir benutzen ein Project Board (Kanban) um die Userstories, Statuse, Progress . 
 # Userstories - Feature Branches
 Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen auch mit einen eigenen Branch erstellt. Nach den Tests wird dieses in die richtige Main/Dev Branch gemergerd.
 ![03_New_dev_Branch](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/2fc5d6de-ebd1-473a-b989-7d4b6a43b974)
-# Unit Tests
+# Unit and Integration Testing
+
 Hier sind ein paar Ausschnitte über das Frontnd der Website:
 
 Hier wird ein User-Controller Unit Test gezeigt

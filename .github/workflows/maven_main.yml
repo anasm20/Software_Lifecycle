@@ -1,4 +1,4 @@
-name: Java CI with Maven for main
+name: Java CI with Maven for main (Build Artifact)
 
 on:
   push:

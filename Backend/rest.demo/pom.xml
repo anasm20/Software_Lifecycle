@@ -9,11 +9,11 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-		<groupId>com.waff</groupId>
-		<artifactId>rest.demo</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<name>rest.demo</name>
-		<description>Demo project for Spring Boot to showcase a RET interface</description>
+	<groupId>com.waff</groupId>
+	<artifactId>rest.demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>rest.demo</name>
+	<description>Demo project for Spring Boot to showcase a RET interface</description>
 	<properties>
 		<java.version>17</java.version>
 		<openapi.version>2.0.2</openapi.version>
@@ -90,8 +90,8 @@
     			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-core</artifactId>
 		</dependency>
 		<dependency>
     			<groupId>org.junit.jupiter</groupId>
@@ -105,7 +105,6 @@
     			<version>4.0.1</version>
     			<scope>provided</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

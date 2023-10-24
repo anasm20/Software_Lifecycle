@@ -27,7 +27,7 @@ Es handelt sich um ein Open-Source-Projekt, sodass jeder den Code teilweise oder
 Für dieses Projekt haben wir verschiedene Software - Lifecycle Methoden angewendet.
 # Project
 Wir benutzen ein Project Board (Kanban) um die Userstories, Statuse, Progress . . . visuel darzustellen und updaten dieses täglich.
-![02_User_Stories](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/69cb6ae3-6a2d-4a98-8357-d43c0eae73b5)
+
 # Userstories - Feature Branches
 Jede Userstory, wird mit einen eigenen Feature Entwickelt und dem entsprechen auch mit einen eigenen Branch erstellt. Nach den Tests wird dieses in die richtige Main/Dev Branch gemergerd.
 ![03_New_dev_Branch](https://github.com/anasm20/Software_Lifecycle_Semesterprojekt/assets/122538784/2fc5d6de-ebd1-473a-b989-7d4b6a43b974)
